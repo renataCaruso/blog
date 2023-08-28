@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API REST Example</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API REST Consuming Example</h1>
+
+        <div class="post-form">
+            <h2>Adicionar Nova Postagem</h2>
+            <form id="postForm">
+                <input type="number" id="idPostagem" placeholder="idPostagem">
+                <input type="text" id="tituloPostagem" placeholder="Título">
+                <input type="text" id="subtituloPostagem" placeholder="Subtítulo">
+                <textarea id="descricaoPostagem" placeholder="Descrição"></textarea>
+                <input placeholder="Data" type="date" id="dataPost">
+                <input placeholder="Imagem" type="file" id="imagemPost" accept="image/jpeg">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="post-list">
+            <h2>Listagem de Postagens</h2>
+            <ul id="postList"></ul>
+            <button id="fetchButton">Buscar Todas as Postagens</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

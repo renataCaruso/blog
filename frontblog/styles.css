@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.post-form,
+.post-list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post-form h2,
+.post-list h2 {
+    margin-top: 0;
+}
+
+button {
+    margin-top: 10px;
+}
